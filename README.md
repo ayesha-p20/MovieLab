@@ -10,13 +10,13 @@ The user needs to enter the name of the image file, number of frames (determined
 
 The following guide explains which arguments need to be passed if input is an image:-
 
-* -i     : Indicates input is an image. Must be followed by a string argument.<br/>
-* -o     : Indicates argument following it is name of output movie. <br/>
--start : Indicates percent of filter applied to first frame. Must be followed by integer.<br/>
--end   : Used to calculate number of frames in output movie. Must be followed by an integer.<br/>
--step  : Used to calculate percent increase in filter application for each successive frame. Must be followed by an integer.<br/>
-hue    : Inducates 'hue' filter needs to be applied to each frame. <br/>
-bw     : Indicates 'bw' filter needs to be applied to each frame.<br/>
+* **-i** indicates input is an image. Must be followed by a string argument.<br/>
+* **-o** indicates argument following it is name of output movie. <br/>
+* **-start** indicates percent of filter applied to first frame. Must be followed by integer.<br/>
+* **-end** is used to calculate number of frames in output movie. Must be followed by an integer.<br/>
+* **-step** is used to calculate percent increase in filter application for each successive frame. Must be followed by an integer.<br/>
+* **hue** indicates 'hue' filter needs to be applied to each frame. <br/>
+* **bw**  indicates 'bw' filter needs to be applied to each frame.<br/>
 
 ##### Note: Either *hue* or *bw* can be selected, but not both.
 
@@ -40,11 +40,11 @@ bw     : Indicates 'bw' filter needs to be applied to each frame.<br/>
 The user needs to input the name of the movie, number of frames, its size (widthxheight), size of each frame and name of the output movie. The user can also choose to apply the reverse filter, otherwise the output is the same as the input.
 
 The following guide explains which arguments need to be passed if input is an image:-
--m       : Indicates input is a movie. Must be followed by name of the movie. <br/>
--o       : Indicates name of output movie. Must be followed by string parameter.<br/>
--f       : Idicates number of frames in the movie. Must be followed by integer argument. <br/>
--s       : Indicates size of each frame. Must be specified as a string in the format widthxheight.<br/>
--reverse : Indicates output movie must be reverse of input movie. 
+* **-m** indicates input is a movie. Must be followed by name of the movie. <br/>
+* **-o** indicates name of output movie. Must be followed by string parameter.<br/>
+* **-f** indicates number of frames in the movie. Must be followed by integer argument. <br/>
+* **-s** indicates size of each frame. Must be specified as a string in the format widthxheight.<br/>
+* **-reverse** indicates output movie must be reverse of input movie. 
 
 ##### Note: *-reverse* is an optional argument. Without it, the ouput movie will be exactly the same as the input movie.
 
