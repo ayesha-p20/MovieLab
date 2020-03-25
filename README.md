@@ -10,8 +10,8 @@ The user needs to enter the name of the image file, its size (widthxheight), num
 
 The following guide explains which arguments need to be passed if inout is an image:-
 
--i     : Indicates input is an image. Must be followed by a string argument.
-*-o     : Indicates argument following it is name of output movie
+-i     : Indicates input is an image. Must be followed by a string argument.<br/>
+-o     : Indicates argument following it is name of output movie
 
 -start : Indicates percent of filter applied to first frame. Must be followed by integer 
 
