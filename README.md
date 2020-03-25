@@ -10,8 +10,8 @@ The user needs to enter the name of the image file, number of frames (determined
 
 The following guide explains which arguments need to be passed if input is an image:-
 
--i     : Indicates input is an image. Must be followed by a string argument.<br/>
--o     : Indicates argument following it is name of output movie. <br/>
+* -i     : Indicates input is an image. Must be followed by a string argument.<br/>
+* -o     : Indicates argument following it is name of output movie. <br/>
 -start : Indicates percent of filter applied to first frame. Must be followed by integer.<br/>
 -end   : Used to calculate number of frames in output movie. Must be followed by an integer.<br/>
 -step  : Used to calculate percent increase in filter application for each successive frame. Must be followed by an integer.<br/>
