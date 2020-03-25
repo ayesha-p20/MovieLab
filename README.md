@@ -11,19 +11,20 @@ The user needs to enter the name of the image file, its size (widthxheight), num
 The following guide explains which arguments need to be passed if inout is an image:-
 
 -i     : Indicates input is an image. Must be followed by a string argument.<br/>
--o     : Indicates argument following it is name of output movie
+-o     : Indicates argument following it is name of output movie. <br/>
+-start : Indicates percent of filter applied to first frame. Must be followed by integer.<br/>
+-end   : Used to calculate number of frames in output movie. Must be followed by an integer.<br/>
+-step  : Used to calculate percent increase in filter application for each successive frame. Must be followed by an integer.<br/>
+hue    : Inducates 'hue' filter needs to be applied to each frame. <br/>
+bw     : Indicates 'bw' filter needs to be applied to each frame.<br/>
 
--start : Indicates percent of filter applied to first frame. Must be followed by integer 
+##### Note: Either *hue* or *bw* can be selected, but not both.
 
--end   : Used to calculate number of frames in output movie. Must be followed by an integer
+#### Example 1:
+##### Input:
+./MovieLab -i cone.ppm -o hue0.yuv -start 0 -end 66 -step 6 -hue
 
--step  : Used to calculate percent increase in filter application for each successive frame. Must be followed by an integer.
-
-hue    : Inducates 'hue' filter needs to be applied to each frame. 
-
-bw     : Indicates 'bw' filter needs to be applied to each frame.
-
-#### Note: Either *hue* or *bw* can be selected, but not both.
-
-Example 1:
+##### Output:
+![Alt text](https://github.com/ayesha-p20/MovieLab/blob/master/o1.png?raw=true "Output 1")
+<img src='hue.gif' title='Movie' width='' alt='Movie' />
 
