@@ -1,0 +1,44 @@
+Script started on Sun 15 Mar 2020 10:01:50 PM PDT
+]0;parveza@zuma:~/hw5[parveza@zuma ~/hw5]$ make
+gcc -c MovieLab.c -o MovieLab.o -ansi -std=c99 -Wall -g
+gcc -c FileIO.c -o FileIO.o -ansi -std=c99 -Wall -g
+gcc -c DIPs.c -o DIPs.o -ansi -std=c99 -Wall -g -lm
+gcc -c Movie.c -o Movie.o
+gcc -c Image.c -o Image.o -ansi -std=c99 -Wall -g
+gcc -c IterativeFilter.c -o IterativeFilter.o
+gcc -c MovieIO.c -o MovieIO.o
+gcc -c ImageList.c -o ImageList.o -ansi -std=c99 -Wall -g  
+gcc -ansi -std=c99 -Wall -g MovieLab.o FileIO.o DIPs.o Movie.o Image.o IterativeFilter.o ImageList.o MovieIO.o -o MovieLab -lm
+]0;parveza@zuma:~/hw5[parveza@zuma ~/hw5]$ ./MovieLab -i cone.ppm -o hue0.yuv -start 0 -end 66 -step 6 -hue
+The movie file hue0.yuv has been written successfully!
+12 frames are written to the file hue0.yuv in total.
+
+Movie saved successfully!
+]0;parveza@zuma:~/hw5[parveza@zuma ~/hw5]$ ./MovieLab -m hue0.yuv -o reverse1.yuv -f 12 -s 300x200 -reverse
+The movie file hue0.yuv has been read successfully!
+
+Operation Reverse is done!
+The movie file reverse1.yuv has been written successfully!
+12 frames are written to the file reverse1.yuv in total.
+
+Movie saved successfully!
+]0;parveza@zuma:~/hw5[parveza@zuma ~/hw5]$ ./MovieLab -bw -i EH.ppm -o bw0.yuv -end 10 -start 100 -step 15
+The movie file bw0.yuv has been written successfully!
+7 frames are written to the file bw0.yuv in total.
+
+Movie saved successfully!
+]0;parveza@zuma:~/hw5[parveza@zuma ~/hw5]$ ./MovieLab -reverse -o reverse2.yuv -f 7 -s 480x360 -m bw0.yuv
+The movie file bw0.yuv has been read successfully!
+
+Operation Reverse is done!
+The movie file reverse2.yuv has been written successfully!
+7 frames are written to the file reverse2.yuv in total.
+
+Movie saved successfully!
+]0;parveza@zuma:~/hw5[parveza@zuma ~/hw5]$ make clean
+rm -f *.o *.yuv
+rm MovieLab
+]0;parveza@zuma:~/hw5[parveza@zuma ~/hw5]$ exit
+exit
+
+Script done on Sun 15 Mar 2020 10:02:46 PM PDT
