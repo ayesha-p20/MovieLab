@@ -64,5 +64,7 @@ The following guide explains which arguments need to be passed if input is an im
 ![Alt text](https://github.com/ayesha-p20/MovieLab/blob/master/o4.png?raw=true "Output 4")
 <img src='reverse2.gif' title='Movie' width='' alt='Movie' />
 
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
 
 
