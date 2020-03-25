@@ -34,4 +34,4 @@ bw     : Indicates 'bw' filter needs to be applied to each frame.<br/>
 
 ##### Output:
 ![Alt text](https://github.com/ayesha-p20/MovieLab/blob/master/o2.png?raw=true "Output 2")
-<img src='bw.gif' title='Movie' width='' alt='Movie' />
+<img src='bw0.gif' title='Movie' width='' alt='Movie' />
