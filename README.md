@@ -28,3 +28,10 @@ bw     : Indicates 'bw' filter needs to be applied to each frame.<br/>
 ![Alt text](https://github.com/ayesha-p20/MovieLab/blob/master/o1.png?raw=true "Output 1")
 <img src='hue.gif' title='Movie' width='' alt='Movie' />
 
+#### Example 2:
+##### Inpput:
+./MovieLab -bw -i EH.ppm -o bw0.yuv -end 10 -start 100 -step 15
+
+##### Output:
+![Alt text](https://github.com/ayesha-p20/MovieLab/blob/master/o2.png?raw=true "Output 2")
+<img src='bw.gif' title='Movie' width='' alt='Movie' />
