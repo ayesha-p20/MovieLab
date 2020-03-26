@@ -1,4 +1,4 @@
-# **MovieLab**
+# **Movie Lab**
 Movie Lab was an assignment that I completed for a course at college. This program accepts an image or a movie as input, applies a filter selected by the user to the input and displays the output in the form of another movie. I used doubly linked lists and structures to create this project. The program accepts input from command line in a linux terminal. Debugging was done using gdb and Valgrind. 
 
 ## Built With
