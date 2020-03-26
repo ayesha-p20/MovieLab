@@ -29,7 +29,7 @@ The following guide explains which arguments need to be passed if input is an im
 <img src='hue.gif' title='Movie' width='' alt='Movie' />
 
 #### Example 2:
-##### Inpput:
+##### Input:
 ./MovieLab -bw -i EH.ppm -o bw0.yuv -end 10 -start 100 -step 15
 
 ##### Output:
