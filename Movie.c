@@ -1,9 +1,4 @@
 /*********************************************************************/
-/* Homework Assignment 5, for EECS 22, Fall 2017                     */
-/*                                                                   */
-/* Author: Tim Schmidt                                               */
-/* Date: 11/09/2017                                                  */
-/*                                                                   */
 /* Movie.c: source file for basic movie manipulations                */
 /*                                                                   */
 /*********************************************************************/
